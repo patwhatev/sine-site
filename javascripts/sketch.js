@@ -66,7 +66,7 @@ function setup() {
 }
 
 function draw() {
-  background(mouseX, mouseY, 150);
+  background((mouseX * .33 * .65), (mouseY * 1.15 * .35), (mouseY % 1.5 + 100));
 
   // map mouseY to moodulator freq between 0 and 20hz
   var modFreq = map(mouseY, 0, height, 40, 0);
