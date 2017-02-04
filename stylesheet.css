@@ -15,15 +15,24 @@
 
 .cell {
 	z-index: 5000;
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
 	margin: 1px;
-	border: red solid 1px;
+	background-size: 450%;
+	background-position: center;
+	transition: all 1s ease-in-out;
+	opacity: 0.1;
 	display: block;
 	float: left;
 }
 
+.cell:hover{
+	opacity: 0.92 !important;
+	transform: scale(4.5);
+	background-size: 100%, 100%;
+}
+
 canvas{
-	margin-top: -60px;
+	margin-top: -420px;
 	z-index: 0;
 }
