@@ -1,0 +1,14 @@
+#footer{
+	z-index: 5000;
+	position: relative;
+	margin-top: 0px;
+	margin-left: 15px;
+	color: white;
+	font-family: helvetica;
+	font-weight: light;
+}
+
+canvas{
+	margin-top: -60px;
+	z-index: 0;
+}
